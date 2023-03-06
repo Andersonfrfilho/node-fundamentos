@@ -1,0 +1,1 @@
+// o buffer guarda os dados na memoria de uma maneira binaria

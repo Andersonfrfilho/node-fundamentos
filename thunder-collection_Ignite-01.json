@@ -1,0 +1,66 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Ignite-01",
+    "dateExported": "2023-03-04T19:30:41.786Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "a596586d-c79a-4b87-a12d-6fa7eccf84ed",
+            "colId": "931524cc-2870-4a24-a9f1-094ad80e500b",
+            "containerId": "",
+            "name": "Queues",
+            "url": "http://localhost:3333/users",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-03-04T19:28:09.475Z",
+            "modified": "2023-03-04T19:28:54.104Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "basic",
+                "basic": {
+                    "username": "{{RABBITMQ_USERNAME}}",
+                    "password": "{{RABBITMQ_PASSWORD}}"
+                }
+            },
+            "tests": []
+        },
+        {
+            "_id": "c2869ce3-e5bc-4215-afa0-2ff1ad05fbbe",
+            "colId": "931524cc-2870-4a24-a9f1-094ad80e500b",
+            "containerId": "",
+            "name": "Queues Copy",
+            "url": "http://localhost:3333/users",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-03-04T19:29:46.917Z",
+            "modified": "2023-03-04T19:29:50.632Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "basic",
+                "basic": {
+                    "username": "{{RABBITMQ_USERNAME}}",
+                    "password": "{{RABBITMQ_PASSWORD}}"
+                }
+            },
+            "tests": []
+        }
+    ],
+    "settings": {
+        "headers": [],
+        "auth": {
+            "type": "basic",
+            "basic": {
+                "username": "guest",
+                "password": "guest"
+            }
+        },
+        "tests": [],
+        "docs": "Rabbitmq Manager HTTP REST",
+        "options": {
+            "baseUrl": "http://localhost:15672"
+        }
+    }
+}
